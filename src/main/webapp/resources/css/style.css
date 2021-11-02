@@ -25,7 +25,7 @@
 }
 
 #content {
-    top: 90px; /* Расстояние от верхнего края */
+    top: 100.2px; /* Расстояние от верхнего края */
     left: 210px; /* Расстояние от левого края */
     bottom: 0; right: 0;
     /*background-image: url('../images/body-background.jpg');*/
