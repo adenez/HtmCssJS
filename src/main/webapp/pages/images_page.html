@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML-изображения</title>
+    <link rel="shortcut icon" href="../resources/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../resources/css/style.css">
+</head>
+<body>
+<div id="header">
+    <h2>Тестирование разных возможностей HTML, CSS, JS.</h2>
+    <h3> &#128062; Основы разных действий c инструментами &#128062;</h3>
+</div>
+
+<div id="sidebar">
+    <p>&#128269; <a href="../index.html">HTML-текст</a></p>
+    <p>&#128269; <a href="links_page.html">HTML-ссылки</a></p>
+    <p>&#128269; HTML-изображения</p>
+    <p>&#128269; <a href="tabs_page.html">HTML-таблицы</a></p>
+    <p>&#128269; <a href="list_page.html">HTML-списки</a></p>
+    <p>&#128269; <a href="html5_page.html">HTML5</a></p>
+    <p>&#128269; <a href="js_page.html">JavaScript тесты</a></p>
+</div>
+
+<div id="content">
+    <h1>&#9971; HTML-изображения</h1>
+    <hr>
+    <p>Вставка изображения на страницу c маппингом:</p>
+    <img src="../resources/images/image_example.jpg" alt="Пример изображения" width="400" usemap="#image_map">
+    <map name="image_map">
+        <area shape="rect" coords="0,0,200,400" href="https://google.com" alt="Google Page">
+        <area shape="rect" coords="200,0,400,300" href="https://yandex.com" alt="Yandex Page">
+    </map>
+    <p><small>Левая часть изображения отправляет на Google, правая - на Яндекс.</small></p>
+</div>
+</body>
+</html>
