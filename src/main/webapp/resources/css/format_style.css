@@ -1,0 +1,44 @@
+#sidebar, #header {
+    cursor: all-scroll;
+    color: brown;
+}
+
+#content {
+    cursor: crosshair;
+}
+
+#content h1 {
+    font-style: italic;
+    color: olivedrab;
+    cursor: pointer;
+}
+
+#content h2 {
+    font-size: 25px;
+    color: blue;
+    cursor: pointer;
+}
+
+#content p {
+    color: rebeccapurple;
+    cursor: help;
+    background: lightskyblue;
+}
+
+#content ul {
+    list-style-image: url("../images/favicon.ico");
+}
+
+#content ol{
+    list-style-type: upper-roman;
+}
+
+A {
+    text-decoration: none;
+    color: teal;
+}
+
+A:hover {
+    text-decoration: underline;
+    color: darkred;
+}
