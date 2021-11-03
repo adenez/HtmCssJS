@@ -1,5 +1,6 @@
 #sidebar, #header {
     cursor: all-scroll;
+    color: brown;
 }
 
 #content {
@@ -21,4 +22,23 @@
 #content p {
     color: rebeccapurple;
     cursor: help;
+    background: lightskyblue;
+}
+
+#content ul {
+    list-style-image: url("../images/favicon.ico");
+}
+
+#content ol{
+    list-style-type: upper-roman;
+}
+
+A {
+    text-decoration: none;
+    color: teal;
+}
+
+A:hover {
+    text-decoration: underline;
+    color: darkred;
 }
