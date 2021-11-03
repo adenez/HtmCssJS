@@ -1,0 +1,24 @@
+#sidebar, #header {
+    cursor: all-scroll;
+}
+
+#content {
+    cursor: crosshair;
+}
+
+#content h1 {
+    font-style: italic;
+    color: olivedrab;
+    cursor: pointer;
+}
+
+#content h2 {
+    font-size: 25px;
+    color: blue;
+    cursor: pointer;
+}
+
+#content p {
+    color: rebeccapurple;
+    cursor: help;
+}
